@@ -1,0 +1,26 @@
+# Byte-compiled
+__pycache__/
+*.pyc
+
+# Build
+dist/
+build/
+*.spec
+*.exe
+
+# Virtual env
+venv/
+env/
+.env
+
+# PyInstaller outputs
+*.exe
+*.ico
+*.png
+
+# UPX
+upx-*/
+upx.exe
+
+# OS
+.DS_Store
