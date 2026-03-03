@@ -1,26 +1,85 @@
-# Byte-compiled
+# Python
 __pycache__/
-*.pyc
-
-# Build
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+*.egg
+*.egg-info/
 dist/
 build/
-*.spec
-*.exe
-
-# Virtual env
-venv/
-env/
-.env
-
-# PyInstaller outputs
 *.exe
 *.ico
 *.png
+*.spec
+*.bat
+*.html
+*.css
+*.roff
+*.1
+*.2
+*.3
+*.4
+*.5
+*.6
+*.7
+*.8
+*.9
+*.man
+*.mdoc
+*.tmac
+*.ms
+*.me
+*.mm
+*.mom
+*.html
+*.htm
+*.css
+*.scss
+*.sass
+*.less
+*.batch
+*.cmd
+*.btm
+*.sh
+*.bash
+*.zsh
+*.fish
+*.ps1
+*.psm1
+*.psd1
+*.ps1xml
+*.pssc
+*.psrc
+*.msu
 
 # UPX
 upx-*/
 upx.exe
+upx
 
-# OS
+# PyInstaller
+*.spec
+*.manifest
+*.exe.manifest
+
+# Logs
+*.log
+*.bak
+*.tmp
+*.temp
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+Thumbs.db
