@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --clean --name ravenguard --icon ravenguard.ico --upx-dir "B:\WorkStation\ravenguard\upx-5.1.0-win64\upx-5.1.0-win64"main.py
