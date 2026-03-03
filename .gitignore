@@ -1,26 +1,94 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
+
+# Virtual Environments
 venv/
+env/
 ENV/
+.venv/
+.pythonenv*
 env.bak/
 venv.bak/
-pythonenv*
-*.egg
-*.egg-info/
-dist/
+
+# Distribution / packaging
 build/
-*.exe
-*.ico
-*.png
+# dist/  ← REMOVIDO para permitir versionar
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
 *.spec
-*.bat
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Ignorar linguagens extras
+# =========================
 *.html
+*.htm
 *.css
+*.scss
+*.sass
+*.less
+*.js
+*.ts
+*.jsx
+*.tsx
+*.bat
+*.cmd
+*.ps1
+*.sh
+*.zsh
+*.fish
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.exe
+*.dll
+*.msi
 *.roff
 *.1
 *.2
@@ -38,48 +106,3 @@ build/
 *.me
 *.mm
 *.mom
-*.html
-*.htm
-*.css
-*.scss
-*.sass
-*.less
-*.batch
-*.cmd
-*.btm
-*.sh
-*.bash
-*.zsh
-*.fish
-*.ps1
-*.psm1
-*.psd1
-*.ps1xml
-*.pssc
-*.psrc
-*.msu
-
-# UPX
-upx-*/
-upx.exe
-upx
-
-# PyInstaller
-*.spec
-*.manifest
-*.exe.manifest
-
-# Logs
-*.log
-*.bak
-*.tmp
-*.temp
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
